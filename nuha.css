@@ -288,7 +288,7 @@ footer {
 }
 @media (max-width: 768px) {
   .product-grid {
-    columns: 2;
+    columns: 1;
     column-gap: 12px;
   }
 
@@ -297,10 +297,11 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 4000px) {
   .product-grid {
     columns: 1;
   }
+  height: :autofill;
 }
     
 .product-card button:hover,
